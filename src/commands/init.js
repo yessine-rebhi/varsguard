@@ -5,7 +5,7 @@ export const runInit = () => {
   const configPath = path.join(process.cwd(), '.varsguardrc');
   const defaultConfig = {
     githubToken: "your_github_token",
-    repo: "your_github_token",
+    repo: "your_github_repo",
     schemaPath: false,
     envPath: '.env',
     envExamplePath: '.env.example',

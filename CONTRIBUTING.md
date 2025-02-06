@@ -28,7 +28,7 @@ To get started with local development, follow these steps:
    ```
 4. Run the project locally (optional):
    ```bash
-   npm run vangaurd
+   npm run varsguard
    ```
 
 This should get you set up and ready to make changes.

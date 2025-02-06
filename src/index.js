@@ -5,11 +5,13 @@ import chalk from 'chalk';
 import { runGenerate } from './commands/generate.js';
 import { runValidate } from './commands/validate.js';
 import { runInit } from './commands/init.js';
+import pkg from '../package.json' assert { type: 'json' };
 
 const program = new Command();
 
 program
-  .version('0.3.0')
+  .version(pkg.version, '-v, --version', 'output the current version')
+  .name('varsguard')
   .description('VarsGuard: Secure and streamline environment variable management.');
 
 program

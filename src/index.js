@@ -5,7 +5,7 @@ import chalk from 'chalk';
 import { runGenerate } from './commands/generate.js';
 import { runValidate } from './commands/validate.js';
 import { runInit } from './commands/init.js';
-import pkg from '../package.json' assert { type: 'json' };
+import pkg from '../package.json' with { type: 'json' };
 
 const program = new Command();
 

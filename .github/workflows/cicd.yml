@@ -30,3 +30,4 @@ jobs:
         run: npm run varsguard validate
         env:
           GSL_GITHUB_SECRETS: ${{ toJson(secrets) }}
+          
